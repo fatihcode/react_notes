@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "../App.css"
 
-export default class State extends Component {
+export default class StateCounter extends Component {
 
     state = { name: "John Wick", age: 32 }
 
