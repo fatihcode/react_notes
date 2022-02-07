@@ -1,16 +1,8 @@
-.blogItem {
-  padding: 10px;
-  width: 250px;
-  margin: 10px auto;
-  color: blue;
-  border: 1px solid red;
-}
-
 .border {
   border: 1px solid blue;
   padding: 10px;
-  width: 400px;
-  margin: 50px auto;
+  max-width: 400px;
+  margin: 20px auto;
 }
 
 .blue {
@@ -19,17 +11,16 @@
 
 .red {
   border-color: red;
-
 }
 
 .green {
   border-color: green;
-
 }
 
-h2{
+h1, h2 {
   border-bottom: 1px solid lightgray;
 }
+
 
 /*-----------------------------------------*/
 
