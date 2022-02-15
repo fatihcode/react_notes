@@ -1,62 +1,25 @@
-import Blog from './comp1/Blog';
-import BlogForm from './comp1/BlogForm';
-import StateCounter from './comp2/StateCounter';
-import StyleComp from './comp2/StyleComp';
-import Footer from './comp2/Footer';
-import Lifecycle from './comp3/Lifecycle';
-import UserList from './comp4/UserList';
-import PersonAdd from './comp4/PersonAdd';
-import PersonList from './comp4/PersonList';
-import PostList from './comp4/PostList';
-
-
+import Ders1 from "./comp1/Ders1";
+import Ders2 from "./comp2/Ders2";
+import Ders3 from "./comp3/Ders3";
+import Ders4 from "./comp4/Ders4";
 
 export default function App() {
 
   return (
-    <div className="App">
-
+    <>
       <div className="App-header">React Ders Notları</div>
-
-      {/* 
-        <h2>Ders 1 - Components</h2>
-
-        <BlogForm />
-        <Blog />
-       */}
-
-      {/* ------------------------------ */}
-
-      {/*
-        <h2>Ders 2 - Style</h2>
-
-        <StateCounter />
-        <StyleComp />
-        <Footer />
-       */}
-
-      {/* ------------------------------ */}
-
-      {/* 
-        <h2>Ders 3 - Lifecycle</h2>
-
-        <Lifecycle/>
-       */}
-
-      {/* ------------------------------ */}
-
-        <h2>Ders 3 - Fetch</h2>
-
-        <UserList />
-        <PersonAdd />
-        <PersonList />
-        <PostList />
-
-      {/* ------------------------------ */}
-
-
       
+      <div className="App">
 
-    </div>
+        {/* <Ders1 /> */}
+
+        {/* <Ders2 /> */}
+
+        {/* <Ders3 /> */}
+
+        <Ders4 />
+
+      </div>
+    </>
   );
 }

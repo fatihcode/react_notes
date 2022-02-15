@@ -43,11 +43,6 @@ export default class Lifecycle extends Component {
 
 
 
-      componentWillUnmount() {
-          
-       }
-
-
     render() {
         console.log(this.props)
         console.log(this.state.age)

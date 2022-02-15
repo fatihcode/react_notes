@@ -6,10 +6,10 @@ export default class StateCounter extends Component {
     state = { name: "John Wick", age: 32 }
 
     countPlus = () => { this.setState({ age: ++this.state.age }) };
+   
     countMinus = () => { this.setState({ age: --this.state.age }) };
 
     render() {
-
 
         return <div className="blue border">
 
