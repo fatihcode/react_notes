@@ -6,7 +6,7 @@ export default function Ders1() {
     return (
         <div>
 
-            <h2>Ders 1 - Components</h2>
+            <h2>Components</h2>
 
             <BlogForm />
             <Blog />

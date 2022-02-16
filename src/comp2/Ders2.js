@@ -1,7 +1,7 @@
 import React from 'react';
 import StateCounter from './StateCounter';
 import StyleComp from './StyleComp';
-import Footer from './Footer';
+import Footer from '../Footer';
 
 export default function Ders2() {
     return (
@@ -11,7 +11,7 @@ export default function Ders2() {
 
             <StateCounter />
             <StyleComp />
-            <Footer />
+ 
 
         </div>
     )

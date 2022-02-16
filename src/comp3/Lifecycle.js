@@ -31,9 +31,6 @@ export default class Lifecycle extends Component {
 
 
 
-
-
-
      shouldComponentUpdate(nextProps, nextState) { 
          
         console.log(nextProps, nextState)
