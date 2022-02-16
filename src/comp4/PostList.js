@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
-import axios from "axios";
-
+import axios from 'axios'
 
 export default class PostList extends Component {
-
-    state = { posts: [] }
+    state = { posts: [], getir: true }
 
     componentDidMount() {
-
-        // fetch('https://jsonplaceholder.typicode.com/posts')
-        // .then(response => response.json())
-        // .then(data => this.setState({ posts: data, isLoading: false }))
-
-        axios.get('https://jsonplaceholder.typicode.com/posts/1')
+        axios.get("https://jsonplaceholder.typicode.com/posts")
             .then(res => this.setState({ posts: res.data }))
-
     }
 
     render() {
-        console.log(this.state.posts)
+
+        const onClick = () => this.setState({ getir: !this.state.getir })
+
         return (
-            <div>PostList</div>
+            <div>
+                <h3>PostList</h3>
+                <button onClick={onClick}>Getir</button>
+                {this.state.getir ? <p>loading...</p> : this.state.posts.map((item, i) => <p key={i}>{item.title}</p>)}
+
+                <hr />
+
+            </div>
         )
     }
 }

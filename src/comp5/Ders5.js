@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Ders5 extends Component {
-  render() {
-    return (
-      <div>
-          <h2>Ders 5 - Router</h2>
-
-      </div>
-    )
-  }
+export default function Ders5() {
+  return (
+    <div>
+      <h2>[Ders 5] - Router</h2>
+      
+      
+    </div>
+  )
 }

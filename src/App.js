@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Ders1 from "./comp1/Ders1";
 import Ders2 from "./comp2/Ders2";
 import Ders3 from "./comp3/Ders3";

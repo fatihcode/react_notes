@@ -5,7 +5,7 @@ export default function Ders3() {
   return (
     <div>
 
-      <h2>Ders 3 - Lifecycle</h2>
+      <h2>[Ders 3] - Lifecycle</h2>
 
  
 

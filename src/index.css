@@ -37,12 +37,11 @@ code {
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 5px;
   margin-bottom: 15px;
 }
 
 .Nav {
-  font-weight: 500;
   font-size: calc(10px + 1vmin);
   display: flex;
   flex-direction: row;
@@ -50,17 +49,19 @@ code {
   justify-content: space-around;
   max-width: 700px;
   margin: 0 auto;
-  padding: 15px 0;
 }
 
 .App-link {
   color: #61dafb;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  padding: 10px 20px;
+  border-bottom: 4px solid #282c34;
 }
 
 .App-link:hover {
-  color: #029dc4;
+  color: #b9f1ff;
+  border-bottom: 4px solid #61dafb;
 }
 
 .footer {
@@ -127,7 +128,7 @@ button {
   color: #fff;
   background-color: #6c757d;
   cursor: pointer;
-  padding: 0.6rem 1.7rem;
+  padding: 0.5rem 1.7rem;
   margin: 0.3rem;
   color: white;
   border: none;
@@ -154,5 +155,6 @@ input {
 }
 
 hr {
+  margin: 20px;
   border: 0.2px solid #d6d6d6;
 }

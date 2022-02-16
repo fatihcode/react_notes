@@ -25,6 +25,7 @@ export default class PersonList extends Component {
 
                 {this.state.error ? { errData } : viewData}
 
+                <hr />
             </div>
         )
     }

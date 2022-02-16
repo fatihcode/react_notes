@@ -32,7 +32,7 @@ export default class PersonAdd extends Component {
                     <button type="submit">Add</button>
 
                 </form>
-
+                <hr />
             </div>
         )
     }
