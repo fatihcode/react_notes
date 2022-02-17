@@ -64,6 +64,14 @@ code {
   border-bottom: 4px solid #61dafb;
 }
 
+.activeClassName{
+  color: #b9f1ff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  padding: 10px 20px;
+  border-bottom: 4px solid #61dafb;
+}
+
 .footer {
   background-color: #282c34;
   color: #d6d6d6;
