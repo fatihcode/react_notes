@@ -5,23 +5,26 @@ export default function Header() {
     <div className="App-header">
       <div className="Nav" >
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders1">Ders 1</NavLink>
+        <NavLink to="" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Home</NavLink>
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders2">Ders 2</NavLink>
+        <NavLink to="ders1" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 1</NavLink>
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders3">Ders 3</NavLink>
+        <NavLink to="ders2" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 2</NavLink>
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders4">Ders 4</NavLink>
+        <NavLink to="ders3" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 3</NavLink>
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders5">Ders 5</NavLink>
+        <NavLink to="ders4" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 4</NavLink>
 
-        <NavLink className={({ isActive }) =>
-          isActive ? "activeClassName" : "App-link"} to="ders6">Ders 6</NavLink>
+        <NavLink to="ders5" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 5</NavLink>
+
+        <NavLink to="ders6" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 6</NavLink>
 
       </div>
     </div>

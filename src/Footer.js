@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <img src={logo} className="logo" alt="logo" />
-      <span>React Ders Notları </span>
+      <span><a href="/">React Ders Notları</a></span>
 
     </div>);
 }
