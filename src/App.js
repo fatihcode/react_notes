@@ -4,6 +4,7 @@ import Ders2 from "./comp2/Ders2";
 import Ders3 from "./comp3/Ders3";
 import Ders4 from "./comp4/Ders4";
 import Ders5 from "./comp5/Ders5";
+import Ders6 from "./comp6/Ders6";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -22,6 +23,8 @@ export default function App() {
                <Route path='ders3' element={<Ders3 />} />
                <Route path='ders4' element={<Ders4 />} />
                <Route path='ders5' element={<Ders5 />} />
+               <Route path='ders6' element={<Ders6 />} />
+
             </Routes>
 
          </div>

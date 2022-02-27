@@ -73,6 +73,9 @@ code {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #282c34;
   color: #d6d6d6;
   padding: 10px;
@@ -80,7 +83,29 @@ code {
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 40px;
 }
+
+.logo {
+  height: 25px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 /*-----------------------------------------*/
 
@@ -166,3 +191,6 @@ hr {
   margin: 20px;
   border: 0.2px solid #d6d6d6;
 }
+
+/*-----------------------------------------*/
+
