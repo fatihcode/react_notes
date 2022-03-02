@@ -28,6 +28,7 @@ export default function App() {
                <Route path='ders4' element={<Ders4 />} />
                <Route path='ders5/*' element={<Ders5 />} />
                <Route path='ders6' element={<Ders6 />} />
+               
                <Route path='*' element={ <Page404/> } />
 
             </Routes>

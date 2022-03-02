@@ -11,17 +11,3 @@ export default function Page2() {
     </div>
   )
 }
-
-
-//Class Comp link parametre yakalama
-// import React, { Component } from 'react'
-
-// export default class Ders6 extends Component {
-//   render() {
-//     console.log(window.location.pathname);
-//     let params = window.location.pathname.split("/").pop()
-//     return (
-//       <div>Ders6: {params}</div>
-//     )
-//   }
-// }
