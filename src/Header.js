@@ -26,6 +26,9 @@ export default function Header() {
         <NavLink to="ders6" className={({ isActive }) =>
           isActive ? "active App-link" : "App-link"}>Ders 6</NavLink>
 
+        <NavLink to="ders7" className={({ isActive }) =>
+          isActive ? "active App-link" : "App-link"}>Ders 7</NavLink>
+
       </div>
     </div>
   )

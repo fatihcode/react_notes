@@ -1,4 +1,5 @@
 export const UPDATE_PRODUCT = 'UPDATE_PRODUCT'
+export const ADD_PRODUCT = 'ADD_PRODUCT'
 
 export function updateProduct(newProduct) {
     return {
@@ -7,5 +8,4 @@ export function updateProduct(newProduct) {
             product: newProduct
         }
     }
-
 }

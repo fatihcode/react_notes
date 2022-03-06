@@ -1,8 +1,14 @@
-export default function productReducer(state, action) {
-    // console.log(state, action);
+import { UPDATE_PRODUCT, ADD_PRODUCT } from "../actions/productAction"
 
-    if (action.type == 'changeTheState') {
-        return action.payload
+
+export default function productReducer(state="", action) {
+
+    switch (action.type) {
+
+        case UPDATE_PRODUCT:
+            return action.payload.product
+
+        default:
+            return state
     }
-    return 'Old State'
 }
