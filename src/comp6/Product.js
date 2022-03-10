@@ -12,7 +12,7 @@ export const Product = (props) => {
 
   }
 
-console.log(props);
+// console.log(props);
   return (
     <div>
 
