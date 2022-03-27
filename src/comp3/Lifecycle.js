@@ -7,18 +7,15 @@ export default class Lifecycle extends Component {
 
         console.log("const work")
         console.log(props)
-
+        
         this.state = {
             name: "Ahmet",
             age: 25
-
         }
     }
 
     componentWillUnmount(){
-
         console.log("Renderdan önce çalıştı")
-
     }
 
     componentDidMount() { 
@@ -29,20 +26,15 @@ export default class Lifecycle extends Component {
      }
 
 
-
-
      shouldComponentUpdate(nextProps, nextState) { 
-         
         console.log(nextProps, nextState)
         return false
       }
 
-
-
-
     render() {
         console.log(this.props)
         console.log(this.state.age)
+
         return (
             <div>
                 <h1>{this.state.name}</h1>

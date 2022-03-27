@@ -15,6 +15,7 @@ export default class PostList extends Component {
 
         return (
             <div>
+                
                 <h3>PostList</h3>
                 <button onClick={onClick}>Getir</button>
                 {this.state.getir ? <p>loading...</p> : this.state.posts.map((item, i) => <p key={i}>{item.title}</p>)}
