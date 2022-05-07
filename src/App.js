@@ -22,14 +22,14 @@ export default function App() {
 
             <Routes>
 
-               <Route index element={<Main />} />
-               <Route path='ders1' element={<Ders1 />} />
-               <Route path='ders2' element={<Ders2 />} />
-               <Route path='ders3' element={<Ders3 />} />
-               <Route path='ders4' element={<Ders4 />} />
-               <Route path='ders5/*' element={<Ders5 />} />
-               <Route path='ders6' element={<Ders6 />} />
-               <Route path='ders7' element={<Ders7 />} />
+               <Route path='react_notes' element={<Main />} />
+               <Route path='react_notes/ders1' element={<Ders1 />} />
+               <Route path='react_notes/ders2' element={<Ders2 />} />
+               <Route path='react_notes/ders3' element={<Ders3 />} />
+               <Route path='react_notes/ders4' element={<Ders4 />} />
+               <Route path='react_notes/ders5/*' element={<Ders5 />} />
+               <Route path='react_notes/ders6' element={<Ders6 />} />
+               <Route path='react_notes/ders7' element={<Ders7 />} />
 
                <Route path='*' element={<Page404 />} />
 

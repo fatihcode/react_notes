@@ -1,4 +1,4 @@
-import { UPDATE_PRODUCT, ADD_PRODUCT } from "../actions/productAction"
+import { UPDATE_PRODUCT } from "../actions/productAction"
 
 
 export default function productReducer(state="", action) {
